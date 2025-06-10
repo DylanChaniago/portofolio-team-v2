@@ -485,3 +485,29 @@ html {
     display: block !important;
     padding-bottom: 160px;
 }
+
+/* Tambahan agar tulisan terlihat jelas saat light mode */
+.light-theme .text-white {
+    color: var(--dark) !important;
+}
+
+.light-theme .card-body,
+.light-theme .card-footer,
+.light-theme .hero-title,
+.light-theme .hero-subtitle,
+.light-theme .section-header,
+.light-theme .btn-outline-red {
+    color: var(--dark) !important;
+}
+
+.light-theme .text-muted {
+    color: #444 !important;
+}
+
+.light-theme .social-links a {
+    color: var(--dark) !important;
+}
+
+.light-theme .form-check-label i {
+    color: var(--dark) !important;
+}
