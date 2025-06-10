@@ -532,3 +532,11 @@ html {
 .light-theme .badge {
     color: var(--dark) !important;
 }
+/* FORCE all project text to dark in light mode */
+.light-theme .card-title,
+.light-theme .card-body *,
+.light-theme .card-footer *,
+.light-theme .card *,
+.light-theme .project-card * {
+    color: var(--dark) !important;
+}
