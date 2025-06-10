@@ -511,3 +511,24 @@ html {
 .light-theme .form-check-label i {
     color: var(--dark) !important;
 }
+
+/* ============== */
+/* FIX LIGHT MODE */
+/* ============== */
+
+.light-theme .card-title,
+.light-theme .card-text,
+.light-theme .section-header,
+.light-theme .card-body,
+.light-theme .card-footer,
+.light-theme h1,
+.light-theme h2,
+.light-theme h3,
+.light-theme h4,
+.light-theme h5,
+.light-theme h6,
+.light-theme p,
+.light-theme span,
+.light-theme .badge {
+    color: var(--dark) !important;
+}
